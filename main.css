@@ -1,0 +1,23 @@
+
+button{
+    padding: 20px;  
+    margin: 20px;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#main_t-shirt_image{
+    margin-left: 50%;
+    transform: translate(-50%);    
+}
+
+
+#site_description{
+    background-color: red;
+    width: 600px;
+}
+
