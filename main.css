@@ -1,7 +1,17 @@
+#main_t-shirt_image{
+    box-shadow: black;
+}
 
-button{
-    padding: 20px;  
-    margin: 20px;
+#main_t-shirt_image{width: 600px;
+-webkit-filter: drop-shadow(5px 5px 5px #666666);
+filter: drop-shadow(5px 5px 5px #666666);}
+
+
+.button{
+    background-color: gray;
+    color: black;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
 
 h1, h2{
@@ -10,14 +20,13 @@ h1, h2{
 }
 
 
-#main_t-shirt_image{
+#main_t-shirt_image, #site_description, form, button{
     margin-left: 50%;
     transform: translate(-50%);    
 }
 
 
 #site_description{
-    background-color: red;
     width: 600px;
 }
 

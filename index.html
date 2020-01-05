@@ -6,21 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>f0110w</title>
     <link rel="stylesheet" href="/main.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
     <h1>f0110w</h1>
     <h2>free your mind</h2>
     <img id="main_t-shirt_image" src="/images/f0110w_t_v1_white.png" alt="short sleve T-Shirt, white, with the word follow written using ones and zeros and a red and white bunny logo underneath, on a Black Binary Code background,Surounded with Black Border">
+    <button class="button is-primary">Buy Now</button>
 
     <p id="site_description">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, laudantium sint iste, libero commodi quam molestias voluptas debitis saepe iusto ipsum temporibus obcaecati a nobis odio cum modi hic neque.
     </p>
     <form>
-        <input type="email" name="email_address" id="email_subscription_input" placeholder="email address">
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+        </div>
         <input type="submit" value="subscribe">
     </form>
 
-    <button>Buy Now</button>
 </body>
 </html>
