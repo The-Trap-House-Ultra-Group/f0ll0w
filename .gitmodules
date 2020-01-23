@@ -1,0 +1,3 @@
+[submodule "version_00"]
+	path = /version_00
+	url = git://f0110w.com/git/lib.git
