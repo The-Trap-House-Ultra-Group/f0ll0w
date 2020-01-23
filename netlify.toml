@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/canceled"
+  to = "/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/thankyou"
+  to = "/"
+  status = 301
+  force = false
+  

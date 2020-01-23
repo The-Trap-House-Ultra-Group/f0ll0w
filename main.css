@@ -1,15 +1,14 @@
-#main_t-shirt_image{
+/* #main_t-shirt_image{
     box-shadow: black;
-}
+} */
 
-#main_t-shirt_image{width: 600px;
+#main_t-shirt_image{width: 900px;
 -webkit-filter: drop-shadow(5px 5px 5px #666666);
-filter: drop-shadow(5px 5px 5px #666666);}
+filter: drop-shadow(5px 5px 5px #666666);
+}
 
 
 .button{
-    background-color: gray;
-    color: black;
     margin-left: 50%;
     transform: translate(-50%);
 }
@@ -20,13 +19,13 @@ h1, h2{
 }
 
 
-#main_t-shirt_image, #site_description, form, button{
+/* #main_t-shirt_image, #site_description, form, button{
     margin-left: 50%;
     transform: translate(-50%);    
-}
+} */
 
 
-#site_description{
+/* #site_description{
     width: 600px;
-}
+} */
 
