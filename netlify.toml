@@ -1,12 +1,228 @@
-[[redirects]]
-  from = "/canceled"
-  to = "/"
-  status = 301
-  force = false
+# 
+
 
 [[redirects]]
-  from = "/thankyou"
-  to = "/"
-  status = 301
-  force = false
+  from = "/code365startuplab"
+  to = "https://code-market-sell.teachable.com"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
   
+[[redirects]]
+  from = "/status"
+  to = "https://www.notion.so/codemarketsell/The-Making-Of-F0110W-a49983bb29e64d34a10c0ff70a65f857"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/vscode"
+  to = "/tools/vscode"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/tools/"
+  to = "https://www.notion.so/therealcasadaro/Tools-89786a2319f54faebc512290635be513"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  
+
+[[redirects]]
+  from = "/tools/vscode"
+  to = "https://code.visualstudio.com"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/tools/notion"
+  to = "https://www.notion.so/?r=e9e0fe2056f54e61ad80cab513d54af3"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/notion"
+  to = "https://www.notion.so/?r=e9e0fe2056f54e61ad80cab513d54af3"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  
+[[redirects]]
+  from = "/follow"
+  to = "https://www.notion.so/therealcasadaro/TRC-Net-Notes-Draft-06374f522cd94fea9087c22489f7baf8"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/project_plan"
+  to = "https://www.notion.so/Planning-An-App-Draft-0466b8aa6c254fd8bf1a82a3ab4c5e90"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/tools/powershell"
+  to = "https://docs.microsoft.com/en-us/powershell/?view=powershell-7"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/tools/grammarly"
+  to = "https://app.grammarly.com/"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  
+[[redirects]]
+  from = "/jamstack"
+  to = "https://www.notion.so/therealcasadaro/What-Is-The-JAM-Stack-c5a41c671aba43e7a60494c83b8b689e/"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/netlifydrop"
+  to = "https://app.netlify.com/drop"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/projects"
+  to = "https://www.notion.so/therealcasadaro/PROJECTS-0fccfafbf78848ddb30f75410f97bc46"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/keyboard"
+  to = "https://amzn.to/2RPWrxg"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+
+# Daily "Blog" Redirects to "blog" pages 
+# /NOTE  
+
+  [[redirects]]
+  from = "/today"
+  to = "/2020-02-09"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-01-14"
+  to = "https://www.notion.so/therealcasadaro/TRCNN-2020-01-14-23ca5aacc84d4f18b472c474c508f199#632cac0f72e040ee8cb5df5f6868f13b"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-01-30"
+  to = "https://www.notion.so/2020-01-30-51c76353447c4d57ba80fd553ffdca79"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-01-31"
+  to = "https://www.notion.so/therealcasadaro/2020-01-31-7e8bd6a8b9144a14b135ec33523ab07b"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-01"
+  to = "https://www.notion.so/therealcasadaro/2020-02-01-9af4568ca78a453792cfab50b0bfee1d"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/2020-02-02"
+  to = "https://www.notion.so/therealcasadaro/2020-02-02-6db808d85040467d921b060a2397c103"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-03"
+  to = "https://www.notion.so/therealcasadaro/2020-02-03-f24600127bb04b89ae06cc663c264a9a"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-04"
+  to = "https://www.notion.so/therealcasadaro/2020-02-04-da79f6e300914630b750c58935860a97"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-05"
+  to = "https://www.notion.so/therealcasadaro/2020-02-05-2bbdea771a30469badcc4008ba1deb28"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-06"
+  to = "https://www.notion.so/therealcasadaro/2020-02-07-317d5ffd2d184d8a9a2521b6977c9a61"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-07"
+  to = "https://www.notion.so/therealcasadaro/2020-02-07-7351136356fe48b9855728075212c5f6"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-08"
+  to = "https://www.notion.so/therealcasadaro/2020-02-08-5a3577485c8c42aa8d0d24ab02f5047d"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/2020-02-09"
+  to = "https://www.notion.so/therealcasadaro/2020-02-09-13e0d36a80e34e459422e9f36d95d95b"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+
+
