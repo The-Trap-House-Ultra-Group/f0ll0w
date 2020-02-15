@@ -127,12 +127,11 @@
   headers = {X-From = "Netlify"}
 
 
-# Daily "Blog" Redirects to "blog" pages 
-# /NOTE  
+# DAILY LIVE BLOG REDIRECT
 
   [[redirects]]
   from = "/today"
-  to = "/2020-02-10"
+  to = "/2020-02-15"
 
   status = 302
   force = true
@@ -228,6 +227,13 @@
   [[redirects]]
   from = "/2020-02-10"
   to = "https://www.notion.so/therealcasadaro/2020-02-10-d36b0e9746c744c1a3c72181da965c7d"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/2020-02-15"
+  to = "https://www.notion.so/therealcasadaro/2020-02-15-3ae60df1833d40a4ad31fe747f49539c"
   status = 302
   force = true
   headers = {X-From = "Netlify"}
