@@ -30,11 +30,9 @@
   from = "/tools/"
   to = "https://www.notion.so/therealcasadaro/Tools-89786a2319f54faebc512290635be513"
 
-  status = 302
+  status = 301
   force = true
   headers = {X-From = "Netlify"}
-
-  
 
 [[redirects]]
   from = "/tools/vscode"
@@ -126,12 +124,13 @@
   force = true
   headers = {X-From = "Netlify"}
 
+# BROKEN LINK
 
 # DAILY LIVE BLOG REDIRECT
 
   [[redirects]]
   from = "/today"
-  to = "/2020-02-15"
+  to = "/2020-02-19"
 
   status = 302
   force = true
@@ -238,4 +237,9 @@
   force = true
   headers = {X-From = "Netlify"}
 
-
+  [[redirects]]
+  from = "/2020-02-19"
+  to = "https://www.notion.so/therealcasadaro/2020-02-19-d5460818c19446e38f445a075bc6c303"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
