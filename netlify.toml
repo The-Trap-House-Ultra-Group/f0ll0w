@@ -130,7 +130,7 @@
 
   [[redirects]]
   from = "/today"
-  to = "/2020-02-20"
+  to = "/2020-02-21"
 
   status = 302
   force = true
