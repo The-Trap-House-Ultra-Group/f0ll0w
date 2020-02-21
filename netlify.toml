@@ -250,3 +250,10 @@
   status = 302
   force = true
   headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/2020-02-21"
+  to = "https://www.notion.so/therealcasadaro/2020-02-20-89c941c121904e7b9b73091ba17770a5"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
