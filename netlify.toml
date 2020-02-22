@@ -1,3 +1,11 @@
+  [[redirects]]
+  from = "/today"
+  to = "/2020-02-22"
+  
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
 [[redirects]]
   from = "/code365startuplab"
   to = "https://code-market-sell.teachable.com"
@@ -14,9 +22,6 @@
   force = true
   headers = {X-From = "Netlify"}
 
-
-
-  
 [[redirects]]
   from = "/status"
   to = "https://www.notion.so/codemarketsell/The-Making-Of-F0110W-a49983bb29e64d34a10c0ff70a65f857"
@@ -65,7 +70,6 @@
   force = true
   headers = {X-From = "Netlify"}
 
-  
 [[redirects]]
   from = "/follow"
   to = "https://www.notion.so/therealcasadaro/TRC-Net-Notes-Draft-06374f522cd94fea9087c22489f7baf8"
@@ -98,8 +102,7 @@
   force = true
   headers = {X-From = "Netlify"}
   
-  
-[[redirects]]
+  [[redirects]]
   from = "/jamstack"
   to = "https://www.notion.so/therealcasadaro/What-Is-The-JAM-Stack-c5a41c671aba43e7a60494c83b8b689e/"
 
@@ -134,14 +137,6 @@
 # BROKEN LINK
 
 # DAILY LIVE BLOG REDIRECT
-
-  [[redirects]]
-  from = "/today"
-  to = "/2020-02-21"
-
-  status = 302
-  force = true
-  headers = {X-From = "Netlify"}
 
   [[redirects]]
   from = "/2020-01-14"
@@ -261,6 +256,13 @@
   [[redirects]]
   from = "/2020-02-21"
   to = "https://www.notion.so/therealcasadaro/2020-02-20-89c941c121904e7b9b73091ba17770a5"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/2020-02-22"
+  to = "https://www.notion.so/therealcasadaro/2020-02-21-99d5269078f044c89c7bbd0441c81ac9"
   status = 302
   force = true
   headers = {X-From = "Netlify"}
