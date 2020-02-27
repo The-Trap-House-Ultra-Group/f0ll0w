@@ -133,6 +133,15 @@
   status = 302
   force = true
   headers = {X-From = "Netlify"}
+  
+  [[redirects]]
+  from = "/learnblender"
+  to = "https://www.notion.so/codemarketsell/LEARN-BLENDER-385fe281ae0643fca63d2a265ca7013c"
+
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
 
 # BROKEN LINK
 
