@@ -1,6 +1,6 @@
   [[redirects]]
   from = "/today"
-  to = "/2020-02-23"
+  to = "/2020-03-03"
   
   status = 302
   force = true
@@ -282,3 +282,11 @@
   status = 302
   force = true
   headers = {X-From = "Netlify"}
+  
+    [[redirects]]
+  from = "/2020-03-03"
+  to = "https://www.notion.so/therealcasadaro/2020-03-03-a6bbe21a80994e439043ac10b1a0d647"
+  status = 302
+  force = true
+  headers = {X-From = "Netlify"}
+  
